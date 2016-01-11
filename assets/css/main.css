@@ -54,7 +54,7 @@ table {
 
 footer {
 	background: black;
-	color: cyan;
+	color: white;
 	padding: 20px;
 	text-align: center;
 	font-family: verdana;
@@ -77,7 +77,10 @@ nav ul li a {
 	color: crimson;
 	text-decoration: none;
 	text-transform: capitalize;
+}
 
+nav ul li a.active {
+	color:magenta;
 }
 
 nav ul li {
@@ -111,4 +114,8 @@ h2 {
 
 h2 span {
 	color: crimson;
+}
+
+.aqua {
+	color: aqua;
 }
