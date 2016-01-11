@@ -119,3 +119,32 @@ h2 span {
 .aqua {
 	color: aqua;
 }
+
+.aq_form {
+	margin-bottom: 50px;
+}
+.aq_form input[type="text"], .aq_form textarea {
+	display: block;
+	width: 95%;
+	max-width: 500px;
+	height: 40px;
+	border: 2px solid black;
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.aq_form textarea {
+	height: 200px;
+}
+
+.aq_form button[type="submit"] {
+	display: block;
+	width: 95%;
+	background: black;
+	color: white;
+	padding: 40px;
+	height: 80px;
+	font-size: 22px;
+	border: 0;
+	margin: 0 auto;
+}
