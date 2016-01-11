@@ -53,9 +53,14 @@ table {
 
 footer {
 	background: black;
-	color: white;
+	color: aqua;
 	padding: 20px;
 	text-align: center;
+	font-family: verdana;
+}
+
+footer span {
+	color: crimson;
 }
 
 h1 {
@@ -63,4 +68,23 @@ h1 {
 	font-family: "Verdana";
 	text-align: center;
 	margin: 15px;
+}
+
+nav ul li a {
+	font-size: 24px;
+	font-family: verdana;
+	color: crimson;
+	text-decoration: none;
+	text-transform: capitalize;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+nav ul {
+	background: black;
+	padding: 5px;
 }
