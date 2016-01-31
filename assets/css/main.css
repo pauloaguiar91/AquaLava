@@ -52,6 +52,11 @@ table {
 
 /* AquaLava code */
 
+/* red: #F20742; */
+/* blue: #034E99; */
+/* blue2: #080399; */
+
+
 footer {
 	background: black;
 	color: white;
@@ -71,26 +76,45 @@ h1 {
 	margin: 15px;
 }
 
+nav {
+}
+
 nav ul li a {
-	font-size: 24px;
-	font-family: verdana;
-	color: crimson;
+	font-size: 14px;
+	font-family: "Exo 2";
+	color: #FFF;
 	text-decoration: none;
 	text-transform: capitalize;
 }
 
 nav ul li a.active {
-	color:magenta;
+	color: lightblue;
 }
 
 nav ul li {
 	display: inline-block;
-	padding: 0 5px;
+	padding: 15px 10px;
+	background: #034E99;
+	height: 45px;
+	vertical-align: top;
 }
 
 nav ul {
-	background: black;
-	padding: 5px;
+	background-color: #034E99;
+
+}
+
+#nav-home {
+	background: #080399;
+	width: 45px;
+	height: 45px;
+	padding: 10px;
+	text-align: center;
+}
+
+#nav-home i {
+	color: #FFF;
+	font-size: 26px;
 }
 
 .hero {
