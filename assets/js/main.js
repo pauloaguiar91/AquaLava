@@ -1,8 +1,14 @@
 (function() {
 	var aq_main = function() {
 
+		function animate() {
+			$('h2.title').velocity("transition.flipBounceXIn", {
+				"duration": 1000,
+			});
+		}
+		
 		function setupEvents() {
-			
+			animate();
 		}
 
 		this.init = function() {

@@ -13,18 +13,19 @@
 	<header>
 		<nav>
 			<ul>
-				<li id="nav-home"><a href="index.html"><i class="fa fa-home"></i></a></li>
-				<li><a href="about.html">about</a></li>
-				<!--<li><a href="services.html">services</a></li>--> 		
-				<li><a class="active" href="contact.html">contact</a></li>
-				<li><a href="sampleprojects.html">sample projects</a></li>
+				<li id="nav-home"><a href="index.html"><i class="fa fa-home"></i></a></li><!--
+				--><li><a href="about.html">about</a></li><!--
+				<!--<li><a href="services.html">services</a></li>--> <!--		
+				--><li class="active"><a href="contact.html">contact</a></li><!--
+				--><li><a href="sampleprojects.html">sample projects</a></li>
 			</ul>
 		</nav>
 	</header>
 	
-	<h1> contact us </h1>
-
-	<form action="contact.php" class="aq_form">
+	<h2 class="title"><span class="aqua">Aqua</span><span>Lava</span></h2>
+	<h3 class="sub-title">contact</h3>
+	
+	<form id="contact-form" action="contact.php" class="aq_form">
 		<input type="text" placeholder="name"/>
 		<input type="text" placeholder="phone"/>
 		<textarea>Write whats up</textarea>
@@ -32,11 +33,22 @@
 	</form>
 	
 	<script type="text/javascript" src="assets/js/jquery-2.2.0.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script type="text/javascript" src="assets/js/velocity.min.js"></script>
 	<script type="text/javascript" src="assets/js/velocity.ui.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+
+	<script type="text/javascript">
+	(function() {
+		$(document).ready(function() {
+			$('#contact-form').velocity("transition.perspectiveLeftIn", {
+				"duration": 888,
+			});
+		});
+	})();
+</script>
 </body>
 
 <footer>
 	2016 <span class="aqua">Aqua</span><span>Lava</span> Studios
 </footer>
+
